@@ -1,3 +1,5 @@
+local GridModule : Table = require(game:GetService("ReplicatedStorage"):WaitForChild("Grid"))
+
 -- << Creating your first grid >> --
 local NewGrid : Table = GridModule.new(Vector3.new(0.5,0.5,0.5) , 0.2 , 32)
 --[[
